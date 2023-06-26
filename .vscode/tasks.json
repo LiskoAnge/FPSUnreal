@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "FPS Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Debug",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Debug",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Debug",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"DebugGame",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"DebugGame",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"DebugGame",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Development",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Development",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Development",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Test",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Test",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Test",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Shipping",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Shipping",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"Mac",
+				"Shipping",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Debug",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Debug",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Debug",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"DebugGame",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"DebugGame",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"DebugGame",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Development",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Development",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Development",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Test",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Test",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Test",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Shipping",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Shipping",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPS IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPS IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPS",
+				"IOS",
+				"Shipping",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Debug",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Debug",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Debug",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPSEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPSEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPSEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Development",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Development",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"FPSEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		},
+		{
+			"label": "FPSEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"FPSEditor",
+				"Mac",
+				"Development",
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Applications/UE_5.2"
+			}
+		}
+	]
+}

@@ -1,0 +1,114 @@
+[
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/.vscode/c_cpp_properties.json",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/FPS.Build.cs",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/FPS.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/FPS.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/FPSCharacter.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/FPSCharacter.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/FPSGameMode.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/FPSGameMode.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/FPSProjectile.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/FPSProjectile.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/TP_PickUpComponent.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/TP_PickUpComponent.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/TP_WeaponComponent.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	},
+	{
+		"file": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Source/FPS/TP_WeaponComponent.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/mmonteiro/Desktop/FPS/FPSUnreal/.vscode/compileCommands_FPS/FPS.253.rsp"
+		],
+		"directory": "/Applications/UE_5.2/Engine/Source"
+	}
+]

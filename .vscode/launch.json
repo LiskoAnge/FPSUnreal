@@ -1,0 +1,105 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch FPS (Debug)",
+			"request": "launch",
+			"program": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
+			"preLaunchTask": "FPS Mac Debug Build",
+			"args": [
+			],
+			"cwd": "/Applications/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch FPS (DebugGame)",
+			"request": "launch",
+			"program": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
+			"preLaunchTask": "FPS Mac DebugGame Build",
+			"args": [
+			],
+			"cwd": "/Applications/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch FPS (Development)",
+			"request": "launch",
+			"program": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
+			"preLaunchTask": "FPS Mac Development Build",
+			"args": [
+			],
+			"cwd": "/Applications/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch FPS (Test)",
+			"request": "launch",
+			"program": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
+			"preLaunchTask": "FPS Mac Test Build",
+			"args": [
+			],
+			"cwd": "/Applications/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch FPS (Shipping)",
+			"request": "launch",
+			"program": "/Users/mmonteiro/Desktop/FPS/FPSUnreal/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
+			"preLaunchTask": "FPS Mac Shipping Build",
+			"args": [
+			],
+			"cwd": "/Applications/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch FPSEditor (Debug)",
+			"request": "launch",
+			"program": "/Applications/UE_5.2/Engine/Binaries/Mac/UnrealEditor-Mac-Debug.app/Contents/MacOS/UnrealEditor-Mac-Debug",
+			"preLaunchTask": "FPSEditor Mac Debug Build",
+			"args": [
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject"
+			],
+			"cwd": "/Applications/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch FPSEditor (DebugGame)",
+			"request": "launch",
+			"program": "/Applications/UE_5.2/Engine/Binaries/Mac/UnrealEditor-Mac-DebugGame.app/Contents/MacOS/UnrealEditor-Mac-DebugGame",
+			"preLaunchTask": "FPSEditor Mac DebugGame Build",
+			"args": [
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject"
+			],
+			"cwd": "/Applications/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Launch FPSEditor (Development)",
+			"request": "launch",
+			"program": "/Applications/UE_5.2/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor",
+			"preLaunchTask": "FPSEditor Mac Development Build",
+			"args": [
+				"/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject"
+			],
+			"cwd": "/Applications/UE_5.2",
+			"type": "lldb"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "/Applications/UE_5.2/Engine/Build/BatchFiles/RunUBT.bat",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/Users/mmonteiro/Desktop/FPS/FPSUnreal/FPS.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"stopAtEntry": false,
+			"cwd": "/Applications/UE_5.2"
+		}
+	]
+}
